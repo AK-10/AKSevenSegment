@@ -14,6 +14,8 @@
 		11405A1D213746FB00906087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11405A1B213746FB00906087 /* LaunchScreen.storyboard */; };
 		11405A28213746FB00906087 /* SevenSegmentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11405A27213746FB00906087 /* SevenSegmentViewTests.swift */; };
 		11405A33213746FB00906087 /* SevenSegmentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11405A32213746FB00906087 /* SevenSegmentViewUITests.swift */; };
+		11405A412137472000906087 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11405A402137472000906087 /* SegmentView.swift */; };
+		11405A43213758CF00906087 /* SevenSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11405A42213758CF00906087 /* SevenSegmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		11405A2E213746FB00906087 /* SevenSegmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenSegmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11405A32213746FB00906087 /* SevenSegmentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenSegmentViewUITests.swift; sourceTree = "<group>"; };
 		11405A34213746FB00906087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11405A402137472000906087 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		11405A42213758CF00906087 /* SevenSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenSegmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				11405A12213746F900906087 /* AppDelegate.swift */,
 				11405A14213746F900906087 /* ViewController.swift */,
+				11405A402137472000906087 /* SegmentView.swift */,
+				11405A42213758CF00906087 /* SevenSegmentView.swift */,
 				11405A16213746F900906087 /* Main.storyboard */,
 				11405A19213746FB00906087 /* Assets.xcassets */,
 				11405A1B213746FB00906087 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11405A43213758CF00906087 /* SevenSegmentView.swift in Sources */,
 				11405A15213746F900906087 /* ViewController.swift in Sources */,
+				11405A412137472000906087 /* SegmentView.swift in Sources */,
 				11405A13213746F900906087 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
